@@ -12,7 +12,7 @@ function Banner() {
             animate={{ opacity: 1, y: 0 }}   // animate to fully visible and original position
             viewport={{ once: false, amount: 0.2 }}
             transition={{ duration: 1, ease: "easeOut" }} // 1 second smooth fade-in
-            className="flex flex-col-reverse lg:flex-row py-[150px] w-[90%] max-w-[1250px] mx-auto items-center lg:gap-20">
+            className="flex flex-col-reverse lg:flex-row pt-[150px] w-[90%] max-w-[1250px] mx-auto items-center lg:gap-20">
             <div className="md:w-[50%]">
                 <div className="lg:w-[500px]">
                     <img src={myImg} className="w-full rounded-full" />
