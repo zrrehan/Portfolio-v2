@@ -12,16 +12,17 @@ function Banner() {
             animate={{ opacity: 1, y: 0 }}   // animate to fully visible and original position
             viewport={{ once: false, amount: 0.2 }}
             transition={{ duration: 1, ease: "easeOut" }} // 1 second smooth fade-in
-            className="flex py-[150px] w-[90%] max-w-[1250px] mx-auto items-center gap-20">
+            className="flex flex-col-reverse lg:flex-row py-[150px] w-[90%] max-w-[1250px] mx-auto items-center lg:gap-20">
             <div className="md:w-[50%]">
-                <div className="w-[500px]">
+                <div className="lg:w-[500px]">
                     <img src={myImg} className="w-full rounded-full" />
                 </div>
             </div>
-            <div className="divider divider-horizontal"></div>
-            <div className="">
-                <h1 className=" text-5xl font-bold">Hello, I am  <span className=" text-6xl monoton-regular">Rehan</span></h1>
+            <div className="divider lg:divider-horizontal"></div>
+            <div className="text-center ">
+                <h1 className=" lg:text-5xl font-bold">Hello, I am  <span className="text-xl lg:text-6xl monoton-regular">Rehan</span></h1>
                 <TypeAnimation
+                    className = "text-xl lg:text-3xl"
                     sequence={[
                         // Same substring at the start will only be typed once, initially
                         'A Frontend Developer',
@@ -34,15 +35,16 @@ function Banner() {
                         1000,
                     ]}
                     speed={50}
-                    style={{ fontSize: '35px', fontWeight: "bold" }}
+                    style={{  fontWeight: "bold" }}
                     repeat={Infinity}
                 ></TypeAnimation>
-                <p className="my-6">
+                <p className="my-6 w-[90%]">
                     Passionate frontend developer skilled in React, creating responsive, user-friendly, and high-performance web applications with a focus on clean design and seamless user experience.
                 </p>
 
-                <div className="flex items-center gap-7">
+                <div className="lg:flex items-center justify-center gap-7 z-0">
                     <DownloadCVButton/>
+                    <br className="lg:hidden"/>
                     <div className="tooltip tooltip-bottom">
                         <div className="tooltip-content rounded-full">
                             <div className="animate-bounce text-white -rotate-5 text-2xl font-black px-3">Github</div>
