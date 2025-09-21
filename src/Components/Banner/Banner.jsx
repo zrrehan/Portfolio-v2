@@ -2,11 +2,17 @@ import { TypeAnimation } from "react-type-animation";
 import myImg from "../../assets/DP.png"
 import DownloadCVButton from "./DownloadCVButton";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { motion } from "framer-motion";
 
 
 function Banner() {
     return(
-        <div className="flex py-[150px] w-[90%] max-w-[1250px] mx-auto items-center gap-20">
+        <motion.div 
+            initial={{ opacity: 0, y: 50 }}  // start invisible, slightly lower
+            animate={{ opacity: 1, y: 0 }}   // animate to fully visible and original position
+            viewport={{ once: false, amount: 0.2 }}
+            transition={{ duration: 1, ease: "easeOut" }} // 1 second smooth fade-in
+            className="flex py-[150px] w-[90%] max-w-[1250px] mx-auto items-center gap-20">
             <div className="md:w-[50%]">
                 <div className="w-[500px]">
                     <img src={myImg} className="w-full rounded-full" />
@@ -53,7 +59,7 @@ function Banner() {
                 </div>
             </div>
             
-        </div>
+        </motion.div>
     )
 }
 
