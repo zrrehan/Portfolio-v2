@@ -23,9 +23,9 @@ function AboutMe() {
                     }}
                     className="border-2 w-[100px] mx-auto mt-2 mb-14"></motion.div>
 
-                    <div className="px-4 flex flex-col max-w-[1150px] mx-auto gap-10">
+                    <div className="px-4 flex flex-col lg:flex-row max-w-[1150px] mx-auto lg:gap-10">
                         <Education />
-                        <div className="divider divider-horizontal"></div>
+                        <div className="divider lg:divider-horizontal"></div>
                         <MyInfo />
                     </div>
                 

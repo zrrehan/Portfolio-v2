@@ -13,10 +13,14 @@ export default function Navbar() {
                 </div>
                 <div className="drawer-side z-30">
                     <label htmlFor="my-drawer-4" aria-label="close sidebar" className="drawer-overlay"></label>
-                    <ul className="menu bg-base-200 text-base-content min-h-full w-80 p-4">
+                    <ul className="space-y-4 menu bg-base-200 text-base-content min-h-full w-80 p-4">
                         {/* Sidebar content here */}
-                        <li><a>Sidebar Item 1</a></li>
-                        <li><a>Sidebar Item 2</a></li>
+                        <li><a href="#banner" onClick={() => document.getElementById('my-drawer-4').checked = false}>Home</a></li>
+                        <li><a href="#skills" onClick={() => document.getElementById('my-drawer-4').checked = false}>Skills</a></li>
+                        <li><a href="#projects" onClick={() => document.getElementById('my-drawer-4').checked = false}>Projects</a></li>
+                        <li><a href="#hire-me" onClick={() => document.getElementById('my-drawer-4').checked = false}>Hire Me</a></li>
+                        <li><a href="#about-me" onClick={() => document.getElementById('my-drawer-4').checked = false}>About Me</a></li>
+
                     </ul>
                 </div>
             </div>

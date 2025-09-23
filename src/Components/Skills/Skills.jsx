@@ -18,14 +18,14 @@ function Skills() {
     return(
         <motion.div 
             id= "skills"
-            initial={{ opacity: 0 }}  // start invisible, slightly lower
-            whileInView={{ opacity: 1 }}   // animate to fully visible and original position
+            initial={{ opacity: 0, y: 50 }}  // start invisible, slightly lower
+            whileInView={{ opacity: 1, y: 0 }}   // animate to fully visible and original position
             transition={{ duration: 3, ease: "easeOut" }}
             className="pt-[150px]"
             >
             <h1 className="text-center  text-2xl md:text-5xl ">My Top Skills</h1>
             <motion.div 
-                animate={{ x: ["-150px", "150px", "-150px"] }}
+                animate={{ x: ["-140px", "140px", "-140px"] }}
                 transition={{
                     duration: 2,    // adjust speed
                     repeat: Infinity, // loop forever

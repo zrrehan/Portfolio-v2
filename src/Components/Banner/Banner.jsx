@@ -13,7 +13,7 @@ function Banner() {
             animate={{ opacity: 1, y: 0 }}   // animate to fully visible and original position
             viewport={{ once: false, amount: 0.2 }}
             transition={{ duration: 1, ease: "easeOut" }} // 1 second smooth fade-in
-            className="flex flex-col-reverse lg:flex-row pt-[150px] w-[90%] max-w-[1250px] mx-auto items-center lg:gap-20">
+            className="flex flex-col-reverse lg:flex-row pt-[50px] lg:pt-[150px] w-[90%] max-w-[1250px] mx-auto items-center lg:gap-20">
             <div className="md:w-[50%]">
                 <div className="lg:w-[500px]">
                     <img src={myImg} className="w-full rounded-full" />
@@ -44,19 +44,23 @@ function Banner() {
                 </p>
 
                 <div className="lg:flex items-center justify-center gap-7 z-0">
-                    <DownloadCVButton/>
+                    <a href="./resume.pdf" download="Resume of Khandaker Ziaur Rahman Rehan">
+                        <DownloadCVButton />
+                    </a>
                     <br className="lg:hidden"/>
-                    <div className="tooltip tooltip-bottom">
-                        <div className="tooltip-content rounded-full">
-                            <div className="animate-bounce text-white -rotate-5 text-2xl font-black px-3">Github</div>
+                    <div className="space-x-7">
+                        <div className="tooltip tooltip-bottom">
+                            <div className="tooltip-content rounded-full">
+                                <div className="animate-bounce text-white -rotate-5 text-2xl font-black px-3">Github</div>
+                            </div>
+                            <a href="https://github.com/zrrehan" target="_blank"><FaGithub size={34} /></a>
                         </div>
-                        <a href="https://github.com/zrrehan" target="_blank"><FaGithub size={34} /></a>
-                    </div>
-                    <div className="tooltip tooltip-bottom">
-                        <div className="tooltip-content rounded-full">
-                            <div className="animate-bounce text-white -rotate-5 text-2xl font-black px-3">LinkedIn</div>
+                        <div className="tooltip tooltip-bottom">
+                            <div className="tooltip-content rounded-full">
+                                <div className="animate-bounce text-white -rotate-5 text-2xl font-black px-3">LinkedIn</div>
+                            </div>
+                            <a href="https://www.linkedin.com/in/zrrehan/" target="_blank"><FaLinkedinIn size={34} /></a>
                         </div>
-                        <a href="https://www.linkedin.com/in/zrrehan/" target="_blank"><FaLinkedinIn size={34} /></a>
                     </div>
                     
                 </div>

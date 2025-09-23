@@ -53,7 +53,7 @@ const SpotlightButton = () => {
             </span>
             <span
                 ref={spanRef}
-                className="pointer-events-none absolute left-[50%] top-[50%] h-10 w-45  -translate-x-[50%] -translate-y-[50%] rounded-full  bg-white opacity-30"
+                className="pointer-events-none absolute left-[50%] top-[50%] h-10 w-45  -translate-x-[50%] -translate-y-[50%] rounded-full  lg:bg-white opacity-30"
             />
         </motion.button>
     );

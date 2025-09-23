@@ -6,7 +6,7 @@ function Education() {
             whileTap={{ scale: 0.95 }}
             className="space-y-10 w-[90vw] lg:w-[50%]">
             <div className="space-y-3">
-                <h1 className="text-5xl font-bold header-text">Education</h1>
+                <h1 className="text-4xl lg:text-5xl font-bold header-text">Education</h1>
                 <p>
                     Currently pursuing an undergraduate degree in Computer Science, developing a strong foundation in software engineering principles, algorithms, and modern technologies. Dedicated to continuous learning and practical experience to excel in the tech industry.
                 </p>
