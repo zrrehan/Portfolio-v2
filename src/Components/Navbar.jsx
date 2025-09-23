@@ -50,7 +50,7 @@ const SlideTabs = () => {
             <a href="#skills"><Tab setPosition={setPosition}>Skills</Tab></a>
             <a href="#projects"><Tab setPosition={setPosition}>Projects</Tab></a>
             <a href="#hire-me"><Tab setPosition={setPosition}>Hire me</Tab></a>
-            <a href="#banner"><Tab setPosition={setPosition}>About me</Tab></a>
+            <a href="#about-me"><Tab setPosition={setPosition}>About me</Tab></a>
 
             <Cursor position={position} />
         </ul>
