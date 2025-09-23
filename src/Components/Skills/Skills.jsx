@@ -11,6 +11,7 @@ import git from "../../assets/git.png"
 import github from "../../assets/github.png"
 import tailwind from "../../assets/tailwind.png"
 import node from "../../assets/node.png"
+import next from "../../assets/next-js.webp"
 import { motion } from "motion/react";
 
 function Skills() {
@@ -47,6 +48,7 @@ function Skills() {
                 <SingleLogo img={git} />
                 <SingleLogo img={github} />
                 <SingleLogo img={tailwind} />
+                <SingleLogo img={next} />
             </Marquee>
         </motion.div>
     )
