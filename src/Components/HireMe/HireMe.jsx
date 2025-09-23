@@ -26,7 +26,7 @@ function HireMe() {
                     className="border-2 w-[100px] mx-auto mt-2 mb-7"></motion.div>
                 <div className="flex flex-col-reverse lg:flex-row items-center justify-between max-w-[1150px] mx-auto">
                     <HireMeForm />
-                    <div className="w-[500px]">
+                    <div className="lg:w-[500px]">
                         <Lottie animationData={emailLottie} loop={true} />
                     </div>
                 </div>

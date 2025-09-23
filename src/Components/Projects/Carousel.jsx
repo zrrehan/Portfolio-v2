@@ -32,7 +32,7 @@ function Carousel({dataPromise}) {
                         <div className='flex flex-col-reverse lg:flex-row gap-4 px-8 items-center justify-center h-full '>
                             <div className='lg:w-[50%] space-y-4'>
                                 <p className='text-xl lg:text-3xl'>{singleData.title}</p>
-                                <h1 className='text-6xl header-text'>{singleData.name}</h1>
+                                <h1 className='text-3xl lg:text-6xl header-text'>{singleData.name}</h1>
                                 <p className='lg:text-xl'>{singleData.description}</p>
                                 <p className='header-text monoton-regular text-3xl font-semibold'>
                                     <TypeAnimation
