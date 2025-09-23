@@ -1,0 +1,17 @@
+.swiper-button-next,
+.swiper-button-prev {
+    color: black;
+
+}
+
+/* Pagination bullets */
+.swiper-pagination-bullet {
+    background: black !important;
+    /* normal state */
+}
+
+/* Active bullet */
+.swiper-pagination-bullet-active {
+    background: black !important;
+    /* active state */
+}
