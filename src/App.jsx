@@ -1,4 +1,5 @@
 import Banner from "./Components/Banner/Banner"
+import HireMe from "./Components/HireMe/HireMe"
 import Navbar from "./Components/Navbar"
 import Projects from "./Components/Projects/Projects"
 import Skills from "./Components/Skills/Skills"
@@ -13,6 +14,7 @@ function App() {
             <Banner></Banner>
             <Skills></Skills>
             <Projects />
+            <HireMe />
         </>
         
     )
