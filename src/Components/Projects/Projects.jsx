@@ -7,7 +7,7 @@ const dataPromise = fetch("./project-data.jsx").then(res => res.json())
 function Projects() {
     return(
         <div className="">
-            <div id="projects" className="pt-[150px]"></div>
+            <div id="projects" className="pt-[100px]"></div>
             <motion.div
 
                 initial={{ opacity: 0, y: 50, scale: 0.8 }}  // start invisible, slightly lower
