@@ -44,11 +44,13 @@ const SlideTabs = () => {
             }}
             className="z-50 relative mx-auto flex w-fit rounded-full border-2 border-black bg-white p-1"
         >
-            <Tab setPosition={setPosition}>Home</Tab>
-            <Tab setPosition={setPosition}>Skills</Tab>
-            <Tab setPosition={setPosition}>Projects</Tab>
-            <Tab setPosition={setPosition}>Hire me</Tab>
-            <Tab setPosition={setPosition}>About me</Tab>
+            
+
+            <a href="#banner"><Tab setPosition={setPosition}>Home</Tab></a>
+            <a href="#skills"><Tab setPosition={setPosition}>Skills</Tab></a>
+            <a href="#projects"><Tab setPosition={setPosition}>Projects</Tab></a>
+            <a href="#banner"><Tab setPosition={setPosition}>Hire me</Tab></a>
+            <a href="#banner"><Tab setPosition={setPosition}>About me</Tab></a>
 
             <Cursor position={position} />
         </ul>

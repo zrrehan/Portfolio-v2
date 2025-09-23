@@ -16,6 +16,7 @@ import { motion } from "motion/react";
 function Skills() {
     return(
         <motion.div 
+            id= "skills"
             initial={{ opacity: 0 }}  // start invisible, slightly lower
             whileInView={{ opacity: 1 }}   // animate to fully visible and original position
             transition={{ duration: 3, ease: "easeOut" }}

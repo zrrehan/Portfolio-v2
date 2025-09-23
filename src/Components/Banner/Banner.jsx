@@ -8,6 +8,7 @@ import { motion } from "framer-motion";
 function Banner() {
     return(
         <motion.div 
+            id = "banner"
             initial={{ opacity: 0, y: 50 }}  // start invisible, slightly lower
             animate={{ opacity: 1, y: 0 }}   // animate to fully visible and original position
             viewport={{ once: false, amount: 0.2 }}
