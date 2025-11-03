@@ -3,6 +3,7 @@ import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import Swal from "sweetalert2";
 import { IoIosSend } from "react-icons/io";
+import { publickKey, templateToken, serviceToken } from "./credentials";
 
 
 function HireMeForm() {
@@ -31,8 +32,8 @@ function HireMeForm() {
         } 
 
         emailjs
-            .sendForm('service_j0skq4r', 'template_dpigurq', form.current, {
-                publicKey: 'OnaGHA7JNsZ1PTrAg',
+            .sendForm(serviceToken, templateToken, form.current, {
+                publicKey: publickKey,
             })
             .then(
                 () => {

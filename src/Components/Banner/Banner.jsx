@@ -21,9 +21,9 @@ function Banner() {
             </div>
             <div className="divider lg:divider-horizontal"></div>
             <div className="text-center ">
-                <h1 className=" lg:text-5xl font-bold">Hello, I am  <span className="text-xl lg:text-6xl monoton-regular">Rehan</span></h1>
+                <h1 className=" md:text-5xl font-bold">Hello, I am  <span className="text-xl md:text-6xl monoton-regular">Rehan</span></h1>
                 <TypeAnimation
-                    className = "text-xl lg:text-3xl"
+                    className = "text-xl md:text-3xl"
                     sequence={[
                         // Same substring at the start will only be typed once, initially
                         'A Frontend Developer',
