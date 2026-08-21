@@ -26,7 +26,7 @@ function Skills() {
             transition={{ duration: 3, ease: "easeOut" }}
             className="pt-[150px]"
             >
-            <h1 className="text-center  text-2xl md:text-5xl ">My Top Skills</h1>
+            <h1 className="text-center  text-2xl md:text-5xl ">Things I won't Google (much).</h1>
             <motion.div 
                 animate={{ x: ["-140px", "140px", "-140px"] }}
                 transition={{

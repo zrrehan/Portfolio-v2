@@ -7,7 +7,7 @@ function InfoTable() {
                     {/* row 1 */}
                     <tr>
                         <th className="monoton-regular">Name</th>
-                        <td>Khandaker Ziaur Rahman</td>
+                        <td>Rehan Sayeed</td>
                     </tr>
                     {/* row 2 */}
                     <tr>

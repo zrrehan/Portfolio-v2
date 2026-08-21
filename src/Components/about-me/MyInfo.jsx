@@ -9,7 +9,9 @@ function MyInfo() {
             <div className="space-y-2">
                 <h1 className="text-4xl lg:text-5xl font-bold header-text">About Me</h1>
                 <p className="">
-                    I am a passionate software engineer specializing in full-stack web development. With expertise in React, Express.js, and MongoDB, I build scalable and efficient applications that deliver seamless user experiences. Continuously learning and adapting, I strive to create clean, maintainable code and innovative solutions that solve real-world problems.
+                    I build web apps by day, get lost in game worlds by night,
+                    and occasionally question every life decision that led me to stare at a screen for both.
+                    No regrets though. This is exactly where I want to be.
                 </p>
             </div>
             <InfoTable></InfoTable>

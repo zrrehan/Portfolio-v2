@@ -8,7 +8,8 @@ function Education() {
             <div className="space-y-3">
                 <h1 className="text-4xl lg:text-5xl font-bold header-text">Education</h1>
                 <p>
-                    Currently pursuing an undergraduate degree in Computer Science, developing a strong foundation in software engineering principles, algorithms, and modern technologies. Dedicated to continuous learning and practical experience to excel in the tech industry.
+                    CS student by paper. Engineer by practice.
+                    Currently corrupting my CGPA with Godot.
                 </p>
             </div>
 

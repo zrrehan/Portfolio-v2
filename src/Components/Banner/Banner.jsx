@@ -26,13 +26,13 @@ function Banner() {
                     className = "text-xl md:text-3xl"
                     sequence={[
                         // Same substring at the start will only be typed once, initially
-                        'A Full-Stack Developer',
+                        'Software Engineer',
                         1000,
-                        'Building Scalable Web Apps',
+                        'Hobbyist Game Developer',
                         1000,
-                        'Turning Ideas into Code',
+                        'Fulltime Gamer',
                         1000,
-                        'Open to Opportunities',
+                        'Siuuuuuuu',
                         1000,
                     ]}
                     speed={50}
@@ -40,7 +40,7 @@ function Banner() {
                     repeat={Infinity}
                 ></TypeAnimation>
                 <p className="my-6 w-[90%]">
-                    Passionate frontend developer skilled in React, creating responsive, user-friendly, and high-performance web applications with a focus on clean design and seamless user experience.
+                    I've written enough web applications to last two lifetimes. Now I'm learning to build worlds, while living inside ones like RDR2, Witcher 3, Ghost of Tsushima and God of War.
                 </p>
 
                 <div className="lg:flex items-center justify-center gap-7 z-0">

@@ -15,7 +15,7 @@ function Projects() {
                 viewport={{ once: false, amount: 0.2 }}
                 transition={{ duration: 1, ease: "easeOut" }} // 1 second smooth fade-in
                 className="">
-                <h1 className="text-center  text-2xl md:text-5xl">Projects I Worked On</h1>
+                <h1 className="text-center  text-2xl md:text-5xl">Things I Actually Shipped.</h1>
                 <motion.div
                     animate={{ x: ["-140px", "140px", "-140px"] }}
                     transition={{
