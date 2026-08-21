@@ -26,13 +26,13 @@ function Banner() {
                     className = "text-xl md:text-3xl"
                     sequence={[
                         // Same substring at the start will only be typed once, initially
-                        'A Frontend Developer',
+                        'A Full-Stack Developer',
                         1000,
-                        'A React Enthusiast',
+                        'Building Scalable Web Apps',
                         1000,
-                        'A Problem Solver',
+                        'Turning Ideas into Code',
                         1000,
-                        'A Web Developer',
+                        'Open to Opportunities',
                         1000,
                     ]}
                     speed={50}

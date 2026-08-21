@@ -12,6 +12,9 @@ import github from "../../assets/github.png"
 import tailwind from "../../assets/tailwind.png"
 import node from "../../assets/node.png"
 import next from "../../assets/next-js.webp"
+import ts from "../../assets/typescript.svg"
+import prisma from "../../assets/prisma.png"
+import postgres from "../../assets/postgres.png"
 import { motion } from "motion/react";
 
 function Skills() {
@@ -40,6 +43,7 @@ function Skills() {
                 <SingleLogo img={Mongo} />
                 <SingleLogo img={React} />
                 <SingleLogo img={node} />
+                <SingleLogo img={prisma} />
             </Marquee>
             <br />
             <Marquee speed={130} autoFill={true}>
@@ -49,6 +53,8 @@ function Skills() {
                 <SingleLogo img={github} />
                 <SingleLogo img={tailwind} />
                 <SingleLogo img={next} />
+                <SingleLogo img = {ts}></SingleLogo>
+                <SingleLogo img = {postgres}></SingleLogo>
             </Marquee>
         </motion.div>
     )

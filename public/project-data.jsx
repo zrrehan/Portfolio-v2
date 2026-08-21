@@ -1,4 +1,14 @@
-[
+[   {
+        "name": "MediVault",
+        "title": "Medicine Delivery Platform",
+        "image1": "https://i.ibb.co.com/b564cFTF/image1.png",
+        "image2": "https://i.ibb.co.com/rRhjWfsb/image2.png",
+        "image3": "https://i.ibb.co.com/99GKFQ6Z/image3.png",
+        "description": "MediVault is a full-stack AI driven medicine delivery platform built with TypeScript, Next.js, and PostgreSQL. Features role-based access control for Customers, Sellers, and Admins with secure authentication, integrated online payment processing, and real-time order status tracking from Pending to Delivered.",
+        "liveSite": "https://medivault-frontend-phi.vercel.app/",
+        "github": "https://github.com/zrrehan/MediVault",
+        "technologies": ["TypeScript", "Next.js", "Express", "PostgreSQL", "Prisma"]
+    },
     {
         "name": "Managely",
         "title": "Employee Management Project",
